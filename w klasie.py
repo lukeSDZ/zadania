@@ -9,7 +9,7 @@ class Colors():
 
     def to_hex(self, kolor_key):
         if kolor_key in self._przykladowe_kolory.keys():
-            for kolor_key, HEX in self._przykladowe_kolory:
+            for kolor_key, HEX in self._przykladowe_kolory.items():
                 print(HEX)
         else: print("Nie ma w slowniku")
 
